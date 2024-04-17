@@ -1,0 +1,15 @@
+        System.out.println("Willkommen bei MySpace!");
+        System.out.println("Drücken sie die [1] für den Kalender.");
+        System.out.println("Drücken sie die [2] für die ToDo Liste.");
+        System.out.println("Drücken sie die [3] für den Moneytracker.");
+        System.out.println("Drücken sie die [4] für den Notenrechner.");
+
+        /*
+         * Liste bzw. Array printen
+         */
+        for (String string : intsInStringList) {
+            System.out.println(string);
+        }
+
+        DateFormat df = DateFormat.getDateInstance(DateFormat.SHORT);   // 14.04.12
+        df = DateFormat.getDateInstance(DateFormat.MEDIUM); 
